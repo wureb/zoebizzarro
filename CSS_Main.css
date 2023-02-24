@@ -1,0 +1,172 @@
+/* General Layout Styles */
+
+
+body {
+
+	background-color: black;
+}
+
+nav {
+
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	font-size: 15pt;
+	font-family: 'Metamorphosis', monospace;
+	color: white;
+	padding-bottom: 1.5%;
+	padding-top: .1%;
+}
+
+
+header {
+
+	text-align: center;
+	font-size: 30pt;
+	color: white;
+	padding: 1%;
+	font-family: 'Metamorphosis', monospace;
+
+}
+
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.grid-container {
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+	text-align: center;
+
+	padding-left: %;
+	padding-right: %;
+	position: sticky;
+	width: 83%;
+
+	column-gap: -2%;
+	grid-row-gap: 6%;
+
+	float: none;
+	margin: auto;
+
+	opacity: 1; 
+  cursor: pointer; 
+
+}
+
+
+.grid-container2 {
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+	text-align: center;
+
+	padding-top: 2.5%;
+	position: sticky;
+	width: 52%;
+
+	column-gap: 8%;
+	grid-row-gap: %;
+
+	float: none;
+	margin: auto;
+
+}
+
+.grid-item {
+
+	
+
+
+}
+
+
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+.column img {
+  opacity: 1; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: .5;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-left: 3%;
+  
+ }
+
+
+/* class */
+
+
+
+
+/* */
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .85s ease;
+  background-color:#262626;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: 'Metamorphosis', monospace;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
