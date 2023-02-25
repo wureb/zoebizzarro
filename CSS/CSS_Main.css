@@ -31,9 +31,43 @@ header {
 
 
 a{
-	color: blue;
+	color: white;
 	text-decoration: none;
 }
+
+a: link{
+
+	color: white;
+	text-decoration: none;
+}
+
+
+a:hover {
+
+	color:red;
+}
+
+
+
+img {
+
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+
+	float: left;
+	text-align: center;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+
+
+}
+
 
 
 
@@ -117,6 +151,32 @@ a{
   margin-left: 3%;
   
  }
+
+
+
+
+.rowPages {
+
+
+ 	clear: both;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+
+}
+
+.columnPages{
+
+ 	
+	 width: 48%;	
+
+ 	float: left;
+ 	padding: 1%;
+	
+
+
+ }
+
+
 
 
 /* class */
