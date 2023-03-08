@@ -14,7 +14,7 @@ nav {
 	font-size: 15pt;
 	font-family: 'Metamorphosis', monospace;
 	color: white;
-	padding-bottom: 1.5%;
+	padding-bottom: .5%;
 	padding-top: .1%;
 }
 
@@ -130,9 +130,10 @@ figure {
 .column {
   float: left;
   width: 25%;
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .column img {
