@@ -1,9 +1,14 @@
 /* General Layout Styles */
 
 
+p {
+
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
 body {
 
-	background-color: black;
+	background-color: #9180d1;
 }
 
 nav {
@@ -12,10 +17,10 @@ nav {
 	text-align: center;
 	align-content: center;
 	font-size: 15pt;
-	font-family: 'Metamorphosis', monospace;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
 	color: white;
 	padding-bottom: .5%;
-	padding-top: .1%;
+	
 }
 
 
@@ -25,7 +30,36 @@ header {
 	font-size: 30pt;
 	color: white;
 	padding: 1%;
-	font-family: 'Metamorphosis', monospace;
+	font-family: 'Averia Serif Libre', cursive;
+
+}
+
+footer {
+
+	
+	text-align: center;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	width: 100%;
+	clear: both;
+
+	padding-top: 5%;
+
+	padding-bottom: 3%;
+
+
+}
+
+hr {
+	border-style: solid;
+	border-color: #6c5f9c;
+	width: 35%;
+	size: .1px;
+	opacity: 0.5;
+
+
+	margin-bottom: 2.5%;
+
+
 
 }
 
@@ -129,7 +163,9 @@ figure {
 
 .column {
   float: left;
-  width: 25%;
+
+  margin-left: 23%; 
+  width: 52%;
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 1%;
@@ -151,6 +187,25 @@ figure {
   clear: both;
   margin-left: 3%;
   
+ }
+
+ .homecap {
+
+ 	display: none;
+
+ }
+
+ .homecapsub {
+
+ 	width: 100%;
+ 	margin-left: 25%;
+ 	color: white; 
+ 	text-align: center; 
+ 	font-size: 10pt; 
+ 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ 	
+
+
  }
 
 
@@ -177,6 +232,74 @@ figure {
 
  }
 
+.columnPagesvideo{
+
+ 	
+	 width: 48%;	
+
+ 	float: left;
+ 	padding: 1%;
+	
+
+
+ }
+
+
+
+ .rowBDIP {
+
+
+ 	clear: both;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+
+}
+
+.columnBDIP{
+
+ 	
+	 width: 48%;	
+
+ 	float: left;
+ 	padding: 1%;
+	
+
+
+ }
+
+
+ .about{
+
+ 	width: 50%;
+ 	margin-left: 25%;
+ 	padding-top: 5%; 
+ 	color: white; 
+ 	text-align: center; 
+ 	font-size: 15pt; 
+ 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ 	
+ }
+
+.descrip{
+
+ 	width: 50%;
+ 	margin-left: 25%;
+ 	color: white; 
+ 	text-align: center; 
+ 	font-size: 15pt; 
+ 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ }
+
+ .descripabt{
+
+ 	width: 50%;
+ 	 margin-top: 3%;
+ 	margin-left: 25%;
+ 	color: white; 
+ 	text-align: center; 
+ 	font-size: 15pt; 
+ 	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+ }
 
 
 
@@ -219,7 +342,7 @@ figure {
 
 .text {
   color: white;
-  font-family: 'Metamorphosis', monospace;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -228,6 +351,136 @@ figure {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        
+    	margin-top: 10%;
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 90%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .columnBDIP {
+        width: 100%;
+        
+
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .overlay {
+        display: none;
+
+
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .about {
+        
+    	width: 80%;
+        margin-left: 5%;
+        font-size: 10pt;
+        padding: 5%;
+        margin-top: 10%;
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .descrip {
+        
+    	width: 80%;
+        margin-left: 5%;
+        font-size: 10pt;
+        padding: 5%;
+        margin-top: 3%;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .descripabt {
+        
+    	width: 80%;
+        margin-left: 5%;
+        font-size: 10pt;
+        padding: 5%;
+        margin-top: 3%;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .homecapsub {
+        
+    	width: 80%;
+        margin-left: 9%;
+        margin-top: 2.5%;
+        font-size: 10pt;
+        
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .homecap {
+        
+    	display: inline;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .columnpagesvideo {
+        
+    	margin-left: 0%;
+
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        
+    	font-size: 9pt;
+
+
+
+    }
 }
 
 
